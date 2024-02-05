@@ -1,0 +1,14 @@
+public class NumberOfDigitsInAnInteger {
+
+	public static void main(String arg[]) {
+		integernumber(1278787879);
+	}
+	 static void integernumber(int num) {
+		int count=0;
+		while(num!=0) {
+			num=num/10;
+			count++;
+		}
+		System.out.print("Number of digits in a given number are :"+count);
+		}
+	}
