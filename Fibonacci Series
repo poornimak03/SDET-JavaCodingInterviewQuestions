@@ -1,11 +1,7 @@
-package pattern;
-
 public class FibSeries {
-
 	public static void main(String arg[]) {
 		fib(7);
 	}
-
 	public static void fib(int n) {
 		int f1 = 0;
 		int f2 = 1;
